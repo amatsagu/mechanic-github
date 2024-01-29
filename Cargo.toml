@@ -1,0 +1,13 @@
+[package]
+name = "mechanical-git"
+version = "0.1.0"
+edition = "2021"
+authors = ["Amatsagu"]
+license = "MIT"
+description = "A small, utility tool to automatically commit & push your changes on save with auto generated comments."
+
+[profile.release]
+strip = true
+lto = true
+
+[dependencies]
